@@ -35,15 +35,17 @@
     </style>
   </head>
   <body
-    class="flex flex-col items-center justify-center gap-3 bg-gray-50 p-4 font-frontend lg:h-screen"
+    class="flex flex-col items-center justify-center gap-3 bg-gray-50 p-4 font-frontend"
   >
     <div
-      class="grid auto-rows-auto grid-cols-1 gap-6 text-2xl font-medium lg:auto-rows-fr lg:grid-cols-4"
+      class="grid auto-rows-auto grid-cols-1 gap-6 text-2xl font-medium lg:w-4/5 lg:grid-cols-4 xl:text-5xl"
     >
       <div
-        class="bg-frontend-purple-500 flex flex-col gap-8 rounded-lg p-8 text-white lg:col-span-2 lg:col-start-2 lg:row-span-4 lg:row-start-1"
+        class="flex flex-col gap-8 rounded-lg bg-frontend-purple-500 p-8 text-white lg:col-span-2 lg:col-start-2 lg:row-span-4 lg:row-start-1"
       >
-        <div class="text-balance text-center text-4xl font-semibold">
+        <div
+          class="text-balance text-center text-4xl font-semibold lg:text-5xl xl:text-6xl"
+        >
           Social Media <span class="text-frontend-yellow-500">10x</span>
           <span class="italic">Faster</span> with AI
         </div>
@@ -65,52 +67,57 @@
           alt=""
           class="drop-shadow-lg"
         />
-        <div class="leading-6">Manage multiple accounts and platforms.</div>
+        <div class="leading-6 xl:leading-10">
+          Manage multiple accounts and platforms.
+        </div>
       </div>
 
       <div
-        class="bg-frontend-yellow-500 flex flex-col overflow-hidden rounded-lg px-4 pt-4"
+        class="relative flex flex-col justify-start overflow-hidden rounded-lg bg-frontend-yellow-500 px-4 pt-4 lg:col-start-3 lg:row-span-3 lg:row-start-5 lg:pb-20 xl:pb-36"
       >
-        <div>Maintain a consistent posting schedule.</div>
+        <div class="leading-6 xl:leading-10">
+          Maintain a consistent posting schedule.
+        </div>
+
         <img
           src="assets/images/illustration-consistent-schedule.webp"
           alt=""
-          class="relative -bottom-5 w-2/3"
+          class="relative -bottom-5 w-2/3 lg:absolute lg:-bottom-14 lg:w-4/5 lg:self-center xl:-bottom-24"
         />
       </div>
 
       <div
-        class="bg-frontend-purple-100 flex flex-col gap-4 rounded-lg p-6 text-center lg:col-start-4 lg:row-span-7 lg:row-start-1"
+        class="relative flex flex-col justify-between gap-4 overflow-hidden rounded-lg bg-frontend-purple-100 p-6 text-center lg:col-start-4 lg:row-span-7 lg:row-start-1 lg:text-left"
       >
         <div class="">Schedule to social media.</div>
         <img
           src="assets/images/illustration-schedule-posts.webp"
           alt=""
-          class=""
+          class="lg:absolute lg:inset-y-0 lg:-right-20 lg:my-auto xl:-right-36"
         />
-        <div class="text-balance text-lg">
+        <div class="text-balance text-lg opacity-55 lg:text-base xl:text-xl">
           Optimize post timings to publish content at the perfect time for your
           audience.
         </div>
       </div>
 
       <div
-        class="bg-frontend-purple-500 flex flex-col items-center gap-6 rounded-lg px-8 py-6 text-center text-4xl text-white lg:col-span-2 lg:col-start-3 lg:row-span-3 lg:row-start-8"
+        class="flex flex-col items-center gap-6 rounded-lg bg-frontend-purple-500 px-8 py-6 text-center text-4xl text-white lg:col-span-2 lg:col-start-3 lg:row-span-3 lg:row-start-8 lg:flex-row"
       >
         <img
           src="assets/images/illustration-grow-followers.webp"
           alt=""
-          class="w-4/5"
+          class="w-4/5 lg:w-2/5 xl:w-4/5"
         />
         <div>Grow followers with non-stop content.</div>
       </div>
 
       <div
-        class="flex flex-col gap-4 rounded-lg bg-white p-6 lg:col-start-2 lg:row-span-3 lg:row-start-8"
+        class="flex flex-col justify-between gap-4 rounded-lg bg-white p-6 lg:col-start-2 lg:row-span-3 lg:row-start-8"
       >
         <div>
-          <div class="text-5xl">>56%</div>
-          <div class="text-lg">faster audience growth</div>
+          <div class="text-5xl xl:text-7xl">>56%</div>
+          <div class="text-lg xl:text-2xl">faster audience growth</div>
         </div>
         <img
           src="assets/images/illustration-audience-growth.webp"
@@ -120,11 +127,11 @@
       </div>
 
       <div
-        class="bg-frontend-yellow-100 flex flex-col gap-4 rounded-lg p-6 text-3xl font-bold lg:col-start-1 lg:row-span-5 lg:row-start-1"
+        class="flex flex-col justify-center gap-4 rounded-lg bg-frontend-yellow-100 p-6 text-3xl font-bold lg:col-start-1 lg:row-span-5 lg:row-start-1"
       >
         <div>
           Create and schedule content
-          <span class="text-frontend-purple-500 italic">quicker.</span>
+          <span class="italic text-frontend-purple-500">quicker.</span>
         </div>
         <img
           src="assets/images/illustration-create-post.webp"
@@ -134,13 +141,13 @@
       </div>
 
       <div
-        class="bg-frontend-yellow-500 flex flex-col gap-4 rounded-lg p-6 text-3xl font-bold lg:col-start-1 lg:row-span-5 lg:row-start-6"
+        class="flex flex-col justify-between gap-4 rounded-lg bg-frontend-yellow-500 p-6 text-3xl font-bold lg:row-span-5 lg:row-start-6"
       >
-        Write your content using AI.
+        <div>Write your content using AI.</div>
         <img
           src="assets/images/illustration-ai-content.webp"
           alt=""
-          class="w-4/5"
+          class="w-4/5 lg:w-auto"
         />
       </div>
     </div>
